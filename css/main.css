@@ -197,24 +197,30 @@ main{
   
   .text-reserve:hover {
     color: #363636;
+    box-shadow: inset 0 0 0 1px #222222;
+    background: #BAA256;
+
   }
-  .text-reserve:hover:before {
+  /* .text-reserve:hover:before {
     height: 100%;
+    box-shadow: inset 0px 0px 0px 1px #222222;
+
   }
   .text-reserve:hover:after {
     height: 100%;
-  }
+
+
+  } */
  
   
 .btn-galery{
     visibility: hidden;
     border: 1px solid #BAA256;
-    padding: 20px 20px;
+    padding: 15px 14px;
     position: absolute;
     z-index: 1;
     transition: 0.3s all;
     display: flex;
-    /* width:200px; */
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -222,7 +228,8 @@ main{
     left: 40%;
     color:#fff;
     text-transform: uppercase;
-    /* transform: scaleX(0); */
+    font-size: 13px;
+
 
 }
 .food-img{
@@ -250,4 +257,5 @@ main{
 .food-img:hover .btn-galery:hover{
     background: #BAA256;
     color:#363636;
+    box-shadow: inset 0 0 0 1px #222222;
 }
