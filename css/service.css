@@ -253,3 +253,21 @@ main{
     background: #BAA256;
     color:#363636;
 }
+
+ @media (max-width: 767px){
+    .list-services-2, .list-services-1{
+        grid-template-columns: none;
+    }
+    .text-services-content{
+        margin: 20px 10px;
+    }
+    .text-reserve{
+        padding: 8px;
+        line-height: 18px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .services-img{
+        padding: 0 5px;
+    }
+ }
